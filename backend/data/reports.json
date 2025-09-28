@@ -1,0 +1,28 @@
+{
+  "items": [
+    {
+      "id": "weekly-performance",
+      "name": "Weekly Performance Overview",
+      "format": "PDF",
+      "frequency": "Weekly",
+      "nextRun": "2024-03-18T06:00:00Z",
+      "recipients": ["leadership@reach.abiqx.com", "marketing@reach.abiqx.com"]
+    },
+    {
+      "id": "channel-roas",
+      "name": "Channel ROAS Snapshot",
+      "format": "CSV",
+      "frequency": "Daily",
+      "nextRun": "2024-03-15T05:00:00Z",
+      "recipients": ["performance@reach.abiqx.com"]
+    },
+    {
+      "id": "monthly-board",
+      "name": "Board Summary",
+      "format": "PDF",
+      "frequency": "Monthly",
+      "nextRun": "2024-04-01T07:30:00Z",
+      "recipients": ["ceo@reach.abiqx.com", "cfo@reach.abiqx.com"]
+    }
+  ]
+}

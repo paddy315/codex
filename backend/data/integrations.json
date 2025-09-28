@@ -1,0 +1,28 @@
+{
+  "items": [
+    {
+      "id": "google-ads",
+      "name": "Google Ads",
+      "status": "connected",
+      "lastSync": "2024-03-14T07:20:00Z"
+    },
+    {
+      "id": "meta-ads",
+      "name": "Meta Ads",
+      "status": "connected",
+      "lastSync": "2024-03-14T06:55:00Z"
+    },
+    {
+      "id": "mailjet",
+      "name": "Mailjet",
+      "status": "attention",
+      "lastSync": "2024-03-13T22:05:00Z"
+    },
+    {
+      "id": "analytics",
+      "name": "Google Analytics",
+      "status": "connected",
+      "lastSync": "2024-03-14T07:40:00Z"
+    }
+  ]
+}

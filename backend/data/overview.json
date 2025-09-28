@@ -1,0 +1,15 @@
+{
+  "period": "Last 7 Days",
+  "updatedAt": "2024-03-14T08:30:00Z",
+  "kpiSummary": [
+    { "label": "Total Spend", "value": 128430, "unit": "€" },
+    { "label": "Revenue", "value": 362980, "unit": "€" },
+    { "label": "ROAS", "value": 2.83, "unit": "x" },
+    { "label": "Leads", "value": 912, "unit": "" }
+  ],
+  "goalPerformance": [
+    { "metric": "Spend", "target": 120000, "actual": 128430 },
+    { "metric": "Revenue", "target": 350000, "actual": 362980 },
+    { "metric": "Leads", "target": 950, "actual": 912 }
+  ]
+}
