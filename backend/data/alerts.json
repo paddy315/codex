@@ -1,0 +1,28 @@
+{
+  "items": [
+    {
+      "id": "alert-spend-threshold",
+      "severity": "high",
+      "title": "Spend exceeds target by 8%",
+      "description": "Google Remarketing spend is trending 8% above the weekly cap.",
+      "time": "2024-03-14T07:45:00Z",
+      "action": "Review bids and pause low performers"
+    },
+    {
+      "id": "alert-conv-rate",
+      "severity": "medium",
+      "title": "Conversion rate dip",
+      "description": "Meta Prospecting CPC increased 11% vs. last week.",
+      "time": "2024-03-13T18:15:00Z",
+      "action": "Test refreshed creatives"
+    },
+    {
+      "id": "alert-integration",
+      "severity": "low",
+      "title": "Analytics refresh delayed",
+      "description": "Last Google Analytics sync finished 90 minutes ago (expected 30).",
+      "time": "2024-03-13T16:25:00Z",
+      "action": "Check API quota status"
+    }
+  ]
+}

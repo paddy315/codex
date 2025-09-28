@@ -1,0 +1,22 @@
+{
+  "items": [
+    {
+      "id": "activity-sync-analytics",
+      "type": "sync",
+      "message": "Google Analytics data sync finished (42k rows)",
+      "time": "2024-03-14T07:42:00Z"
+    },
+    {
+      "id": "activity-goal-edit",
+      "type": "goal",
+      "message": "Lena Schmidt updated lead volume goal to 1,050 / week",
+      "time": "2024-03-13T20:10:00Z"
+    },
+    {
+      "id": "activity-report",
+      "type": "report",
+      "message": "Monthly Board Summary delivered to 6 recipients",
+      "time": "2024-03-13T08:05:00Z"
+    }
+  ]
+}

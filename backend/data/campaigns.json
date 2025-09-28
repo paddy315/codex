@@ -1,0 +1,48 @@
+{
+  "items": [
+    {
+      "id": "cmp-google-remarketing",
+      "name": "Google Ads Remarketing Q1",
+      "channel": "Google Ads",
+      "status": "Active",
+      "spend": 48600,
+      "revenue": 162400,
+      "roas": 3.34,
+      "trend": "+8%",
+      "owner": "Sophie Müller"
+    },
+    {
+      "id": "cmp-meta-prospecting",
+      "name": "Meta Prospecting Spring",
+      "channel": "Meta Ads",
+      "status": "Active",
+      "spend": 32800,
+      "revenue": 88600,
+      "roas": 2.70,
+      "trend": "+4%",
+      "owner": "Jonas Weber"
+    },
+    {
+      "id": "cmp-email-nurture",
+      "name": "Lifecycle Nurture Automation",
+      "channel": "Email",
+      "status": "Paused",
+      "spend": 8200,
+      "revenue": 18900,
+      "roas": 2.30,
+      "trend": "-3%",
+      "owner": "Lena Schmidt"
+    },
+    {
+      "id": "cmp-linkedin-abm",
+      "name": "LinkedIn ABM Enterprise",
+      "channel": "LinkedIn",
+      "status": "Active",
+      "spend": 18750,
+      "revenue": 43600,
+      "roas": 2.33,
+      "trend": "+11%",
+      "owner": "Marco Thal"
+    }
+  ]
+}

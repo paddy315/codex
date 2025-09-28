@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reach Abiqx – Marketing Intelligence</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="sidebar">
+        <div class="brand">
+          <div class="brand-icon">RA</div>
+          <span class="brand-text">Reach Abiqx</span>
+        </div>
+        <nav class="nav">
+          <a class="nav-link active" href="#">Dashboard</a>
+          <a class="nav-link" href="#">Campaigns</a>
+          <a class="nav-link" href="#">Reports</a>
+          <a class="nav-link" href="#">Integrations</a>
+          <a class="nav-link" href="#">Settings</a>
+        </nav>
+        <div class="mode-toggle">
+          <input type="checkbox" id="themeToggle" />
+          <label for="themeToggle">Dark Mode</label>
+        </div>
+      </aside>
+      <main class="content">
+        <header class="top-bar">
+          <div>
+            <h1>Marketing Intelligence Hub</h1>
+            <p class="subtitle">Analyze performance, manage goals, and keep every channel aligned.</p>
+          </div>
+          <button id="refresh" class="primary-button">Refresh Data</button>
+        </header>
+
+        <section class="status-bar" id="statusBar"></section>
+
+        <section class="kpi-grid" id="kpiGrid"></section>
+
+        <section class="panel chart-panel">
+          <div class="panel-header">
+            <h2>Revenue vs. Spend</h2>
+            <span id="chartPeriod" class="muted"></span>
+          </div>
+          <canvas id="kpiChart" width="960" height="360"></canvas>
+        </section>
+
+        <section class="two-column">
+          <div class="panel" id="alertsPanel">
+            <div class="panel-header">
+              <h2>Alerts &amp; Recommendations</h2>
+            </div>
+            <ul class="alert-list" id="alertList"></ul>
+          </div>
+          <div class="panel" id="integrationsPanel">
+            <div class="panel-header">
+              <h2>Channel Integrations</h2>
+            </div>
+            <ul class="integration-list" id="integrationList"></ul>
+          </div>
+        </section>
+
+        <section class="panel">
+          <div class="panel-header">
+            <h2>Campaign Performance</h2>
+          </div>
+          <table class="campaign-table" id="campaignTable">
+            <thead>
+              <tr>
+                <th>Campaign</th>
+                <th>Channel</th>
+                <th>Status</th>
+                <th class="numeric">Spend</th>
+                <th class="numeric">Revenue</th>
+                <th class="numeric">ROAS</th>
+                <th>Owner</th>
+                <th>Trend</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </section>
+
+        <section class="two-column">
+          <div class="panel" id="reportsPanel">
+            <div class="panel-header">
+              <h2>Scheduled Reports</h2>
+            </div>
+            <ul class="report-list" id="reportList"></ul>
+          </div>
+          <div class="panel" id="activityPanel">
+            <div class="panel-header">
+              <h2>Recent Activity</h2>
+            </div>
+            <ul class="activity-list" id="activityList"></ul>
+          </div>
+        </section>
+      </main>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
